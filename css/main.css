@@ -1,31 +1,23 @@
 .body {
-    background-color: #727272;
-    font-color: white;
+    background-color: #FFFFFF;
     font-family: source-sans-pro, sans-serif;
-    font-weight: 200;
     font-style: normal; 
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin: 5%;
 }
 
 a:link {
-    color: #FFFFFF;
-    font-weight: 200;
+    color: #000000;
+    font-weight: 300;
+    font-size: 2rem;
 }
 
 .main {
-    display: flex;
 }
 
 .leftMain {
-    display: inline-block;
-    background-color: azure;
 }
 
 .rightMain {
-    display: inline-block;
-    background-color: coral;
 }
 
 .logo {
@@ -40,9 +32,12 @@ a:link {
     margin: 0 auto;
 }
 
+.bottom {
+    margin-top: 1%;
+}
+
 .social-media {
     text-align: center;
-    background-color: cadetblue;
 }
 
 .social-media a{
@@ -50,8 +45,13 @@ a:link {
     margin: 1%
 }
 
-.marginTop {
-    margin-top: 4%;
+@media only screen and (max-width: 400px) {
+    a:Link{
+        font-size: 1.5rem;
+    }
+    .social-media{
+        margin-top: 1%;
+    }
 }
 
 
