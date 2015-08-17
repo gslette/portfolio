@@ -1,14 +1,20 @@
 .body {
     background-color: #FFFFFF;
-    font-family: source-sans-pro, sans-serif;
+    font-family: abel, sans-serif;
     font-style: normal; 
     margin: 5%;
 }
 
-a:link {
+.links a{
     color: #000000;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 3rem;
+    transition: 1s;
+}
+
+.links a:hover {
+    transition: 1s;
+    color: deepskyblue !important;
 }
 
 .main {
@@ -42,12 +48,12 @@ a:link {
 
 .social-media a{
     display: inline;
-    margin: 1%
+    margin: 1%;
 }
 
 @media only screen and (max-width: 400px) {
     a:Link{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .social-media{
         margin-top: 1%;
