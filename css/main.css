@@ -1,6 +1,7 @@
 .body {
     background-color: #FFFFFF;
     font-family: abel, sans-serif;
+    /*** consider caudex or expletus sans ***/
     font-style: normal; 
     margin: 5%;
 }
@@ -9,12 +10,20 @@
     color: #000000;
     font-weight: 300;
     font-size: 3rem;
-    transition: 1s;
+    transition: 0.5s ease;
 }
 
 .links a:hover {
-    transition: 1s;
+    transition: 0.5s ease;
     color: deepskyblue !important;
+}
+
+.links:hover a:before{
+    content: '{ ';
+}
+
+.links:hover a:after{   
+    content: ' }';
 }
 
 .main {
