@@ -1,6 +1,2 @@
-///$(function() {
-    $('.links').hover(function(){
-        var text = (this).text();
-        $(this).text = "{ " + text + " }";
-    });
-});
+var left = document.getElementById('leftMain').style.height;
+document.getElementById('rightMain').style.height = left;
