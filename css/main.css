@@ -2,7 +2,6 @@
     background-color: #FFFFFF;
     font-family: abel, sans-serif;
     font-style: normal; 
-    margin: 5%;
 }
 
 .links a{
@@ -26,7 +25,9 @@
 }
 
 .main {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
