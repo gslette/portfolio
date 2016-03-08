@@ -27,12 +27,15 @@
 }
 
 .main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .leftMain {
 }
 
 .rightMain {
+    align-self: center;
 }
 
 .logo {
@@ -47,19 +50,19 @@
     margin: 0 auto;
 }
 
-.bottom {
-    margin-top: 1%;
+.social-media {
+    margin-top: 5%;
+    text-align: center;
 }
 
-.social-media {
-    text-align: center;
+.social-media img {
+    max-height: 35px;
+    max-width: 35px;
 }
 
 .social-media a{
     display: inline;
     margin: 1%;
-    max-height: 20%;
-    max-width: 20%;
 }
 
 @media only screen and (max-width: 400px) {
@@ -72,6 +75,5 @@
 }
 
 .knock {
-    
 }
 
