@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "description": "Resume for Gunnar Slette",
+  "version": "0.1.0",
+  "homepage": "https://gunnarslette.com/",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.6.0",
+    "angular-route": "~1.6.0",
+    "angular-loader": "~1.6.0",
+    "angular-mocks": "~1.6.0",
+    "angular-material": "latest",
+    "html5-boilerplate": "^5.3.0"
+  }
+}
